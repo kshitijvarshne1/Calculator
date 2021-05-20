@@ -5,7 +5,18 @@ body {
 #container {
   width: 1200px;
   height: 600px;
-  background-image: url(../public/bgImg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../public/bgImg.jpg);
   margin: 20px auto;
   margin-top: 25px;
+}
+#calculator {
+  top: 20px;
+  width: 320px;
+  height: 520px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
