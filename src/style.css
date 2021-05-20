@@ -1,0 +1,11 @@
+body {
+  font-family: "open sans", sans-serif;
+  background-color: black;
+}
+#container {
+  width: 1200px;
+  height: 600px;
+  background-image: url(../public/bgImg.jpg);
+  margin: 20px auto;
+  margin-top: 25px;
+}
